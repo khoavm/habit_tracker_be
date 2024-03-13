@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: habit_tracker_be
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        default_schema: habit_tracker
