@@ -21,5 +21,7 @@ public class HabitController {
     public ResponseEntity<ResponseDto> createHabit(@RequestBody HabitDto habitDto){
        var habit = habitService.createHabit(habitDto);
        return ResponseHelper.DefaultCreateSuccessResponse(habit);
+
+
     }
 }
